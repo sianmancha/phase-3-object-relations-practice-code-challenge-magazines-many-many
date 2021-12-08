@@ -107,7 +107,7 @@ Use Active Record association macros and Active Record query methods where appro
 
 #### Reader
 
-- `Reader#subscribe(magazine, price)`
+- `Reader#subscribe(magazine, price)` <-- do this one
   - takes a `magazine` (an instance of the `Magazine` class) and a `price` (integer) as arguments, and creates a new `subscription` in the database associated with the magazine and the reader
 - `Reader#total_subcription_price`
   - returns the total price for all the reader's subscriptions
